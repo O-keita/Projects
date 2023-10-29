@@ -59,7 +59,7 @@ const Calculator = () => {
                 <br />
                 <button className='bottons' onClick={()=>addDisplay('^')}>^</button>
                 <button className='bottons' onClick={()=>addDisplay(0)}>0</button>
-                <button className='bottons' onClick={()=>addDisplay}>/</button>
+                <button className='bottons' onClick={()=>addDisplay('/')}>/</button>
                 <button className='bottons' onClick={controlcalculate}>=</button>
                 
                 <br />
