@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.calculator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    padding: 2%;
+    border-radius: 15px;
+}
+.display{
+    height: 50px;
+    background-color: white;
+    width: 350px;
+    border-radius:10px;
+    margin: 10px;
+    color: black;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding:3px ;
+    font-size:30px ;
+}
+.controls{
+    width: 350px;
+    height: auto;
+
+}
+.bottons{
+    width:80px ;
+    height:80px;
+    border-radius:40%;
+    margin:3.5px;
+    font-size: 30px;
+    cursor: pointer;
+
+
+    
+}
