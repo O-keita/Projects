@@ -4,19 +4,24 @@
     justify-content: center;
     width: 100%;
     height: auto;
+    margin:5%;
 }
 .calculator{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: black;
+    box-shadow: 5px 5px 10px rgba(0, 0,0, 0.1), -5px -5px 10px #fff;
     padding: 2%;
-    border-radius: 15px;
+    border-radius: 20px;
+}
+
+.manah{
+    color: red;
 }
 .display{
     height: 50px;
-    background-color: white;
+    background-color:white;
     width: 350px;
     border-radius:10px;
     margin: 10px;
@@ -26,7 +31,9 @@
     align-items: center;
     justify-content: flex-end;
     padding:3px ;
-    font-size:30px ;
+    font-size:30px ;  
+    border-radius: 20px;  
+    box-shadow:inset 5px 5px 10px rgba(0, 0,0, 0.1), inset -5px -5px 10px #fff;
 }
 .controls{
     width: 350px;
@@ -40,6 +47,8 @@
     margin:3.5px;
     font-size: 30px;
     cursor: pointer;
+    border: 3px solid #edf1f4;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgb(236, 235, 235);
 
 
     

@@ -34,6 +34,7 @@ const Calculator = () => {
   return (
     <div className='container'>
         <div className="calculator">
+            <span className='minah'>𝕸𝖎𝖓𝖆𝖍</span>
             <div className="display">{display}</div>
             <div className="controls">
                 <button className='bottons' onClick={controlClear}>C</button>

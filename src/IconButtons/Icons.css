@@ -1,6 +1,8 @@
 body{
-    background-color: rgb(29, 28, 28);
-    color: white;
+    background-color:#edf1f4;
+    padding: 2%;
+    
+
 }
 .iconbuttons{
     width: 100vw;
@@ -9,6 +11,10 @@ body{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: rgb(41, 40, 40);
+    color: white;
+    
+    
 }
 .iconbuttons ul{
     display: flex;
