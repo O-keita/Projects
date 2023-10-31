@@ -34,7 +34,7 @@
     font-size:30px ;  
     border-radius: 20px;  
     box-shadow:inset 5px 5px 10px rgba(0, 0,0, 0.1), inset -5px -5px 10px #fff;
-    overflow: scroll;
+    
 }
 .controls{
     width: 350px;
